@@ -1,0 +1,13 @@
+{
+name: "Popx",
+description: "Popx.",
+image: "heroku/python",
+repository: "https://github.com/cgil/popx",
+keywords: [
+"python",
+"flask"
+],
+addons: [
+"heroku-postgresql"
+]
+}
