@@ -9,18 +9,18 @@ pages:
       icon: icon.png
       url: https://url.com
       product_name: product name
-    banner: banner.png
-    tagline: tagline
-    slogan: longer slogan
+    banner: background-store.jpg
+    tagline: Instant Retail.
+    slogan: The easiest way to get your products into stores.
     mailchimp:
       bottom:
         show: true
       top:
         show:  true
       subscribe_url: mailchimp.com
-      email_placeholder: My Email
+      email_placeholder: "My Email"
       subscribe_button_text: Subscribe
-      mailchimp_cta_bottom: Subscribe Today!
+      mailchimp_cta_bottom: "Subscribe Today!"
     sections:
       how_it_works:
         show: false
