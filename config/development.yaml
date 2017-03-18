@@ -18,9 +18,9 @@ pages:
       top:
         show:  true
       subscribe_url: mailchimp.com
-      email_placeholder: "My Email"
+      email_placeholder: My Email
       subscribe_button_text: Subscribe
-      mailchimp_cta_bottom: "Subscribe Today!"
+      mailchimp_cta_bottom: Subscribe Today!
     sections:
       how_it_works:
         show: false
