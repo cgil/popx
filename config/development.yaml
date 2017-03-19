@@ -11,7 +11,7 @@ pages:
       product_name: PopX
     banner: background-store.jpg
     tagline: Instant Retail.
-    slogan: The easiest way to get your products in hot NYC stores.
+    slogan: The easiest way to get your products in hot PopX stores across the country.
     mailchimp:
       bottom:
         show: true
@@ -53,8 +53,9 @@ pages:
         show: true
         title: Plug & Play Retail
         description: >
-                Your products share the hottest stores with other beautiful & curated brands.
-                You control everything remotely and let us showcase, sell, and handle inventory for you.
+                Your products share the hottest PopX stores with other beautiful & curated brands.
+                Our brand experience team will showcase, sell, and handle your inventory,
+                while you watch from your sales dashboard.
         image: shared-retail-250.png
       3:
         show: true
