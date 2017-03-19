@@ -6,21 +6,21 @@ pages:
     header:
       title: Shared retail pop-up stores on demand.
       description: Shared retail pop-up stores on demand. Quickly get your products in a retail space.
-      icon: icon.png
+      icon: background-store.jpg
       url: https://getpopx.com
       product_name: PopX
     banner: background-store.jpg
     tagline: Instant Retail.
-    slogan: The easiest way to get your products in hot stores.
+    slogan: The easiest way to get your products in hot NYC stores.
     mailchimp:
       bottom:
         show: true
       top:
         show:  true
-      subscribe_url: mailchimp.com
+      subscribe_url: //getpopx.us13.list-manage.com/subscribe/post?u=7ac52370982b0636b0acd6901&amp;id=eccee53c49
       email_placeholder: My Email
       subscribe_button_text: Apply
-      mailchimp_cta_bottom: Apply to sell with us! Retail spots starting at $350/month. 
+      mailchimp_cta_bottom: Apply to sell with us! Retail spots starting at $350/month.
     sections:
       how_it_works:
         show: true
