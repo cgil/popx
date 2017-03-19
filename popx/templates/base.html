@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-        <meta name="description" content="Live your life freely with Caddy. Drop your stuff off when you don’t need it at a nearby Caddy location. We’ll hold it safe and sound until you’re ready to have it delivered directly to your door." />
+        <meta name="description" content="{{ description }}" />
 
         <!-- Begin Facebook tags-->
         <meta property="og:url" content="{{ header['url'] }}" />
@@ -28,7 +28,7 @@
 
         <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
-        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/base.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/base.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
         <link rel="image_src" href="{{ url_for('static', filename='img/' + header['icon']) }}" />
     </head>

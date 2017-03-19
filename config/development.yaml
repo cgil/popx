@@ -4,14 +4,14 @@ debug: True
 pages:
   home:
     header:
-      title: Test Title
-      description: description
+      title: Shared retail pop-up stores on demand.
+      description: Shared retail pop-up stores on demand. Quickly get your products in a retail space.
       icon: icon.png
-      url: https://url.com
-      product_name: product name
+      url: https://getpopx.com
+      product_name: PopX
     banner: background-store.jpg
     tagline: Instant Retail.
-    slogan: The easiest way to get your products into stores.
+    slogan: The easiest way to get your products in hot stores.
     mailchimp:
       bottom:
         show: true
@@ -19,27 +19,23 @@ pages:
         show:  true
       subscribe_url: mailchimp.com
       email_placeholder: My Email
-      subscribe_button_text: Subscribe
-      mailchimp_cta_bottom: Subscribe Today!
+      subscribe_button_text: Apply
+      mailchimp_cta_bottom: Apply to sell with us! Retail spots starting at $350/month. 
     sections:
       how_it_works:
-        show: false
+        show: true
         step_1:
-          description: desc
-          title: title
-          image: image.png
+          description: Tell us about your brand and products
+          icon: fa-paint-brush
         step_2:
-          description: desc
-          title: title
-          image: image.png
+          description: Book your favorite spots in our stores, month-to-month
+          icon: fa-building-o
         step_3:
-          description: desc
-          title: title
-          image: image.png
+          description: Send your products to our stores
+          icon: fa-send
         step_4:
-          description: desc
-          title: title
-          image: image.png
+          description: Our dedicated team will start selling your products immediately
+          icon: fa-shopping-bag
       map:
         show: false
         description: desc
@@ -47,26 +43,35 @@ pages:
         image: image.png
       1:
         show: true
-        description: desc
-        title: title
-        image: image.png
+        title: Real World Brand Awareness
+        description: >
+              Explore different markets and find new loving customers then
+              drive traffic to your online channels
+        image: brand-awareness.png
+        type: message
       2:
         show: true
-        description: desc
-        title: title
-        image: image.png
+        title: Plug & Play Retail
+        description: >
+                Your products share the hottest stores with other beautiful & curated brands.
+                You control everything remotely and let us showcase, sell, and handle inventory for you.
+        image: shared-retail-250.png
       3:
         show: true
-        description: desc
-        title: title
-        image: image.png
+        title: Growth & Sales Dashboard
+        description: >
+                  Our growth & sales dashboard gives you real-time analytics,
+                  customer feedback, and inventory tracking.
+        image: analytics-laptop-250.png
       4:
         show: true
-        description: desc
-        title: title
-        image: image.png
+        title: Let Us Tell Your Story
+        description: >
+                Remotely train our brand experience team to tell your brand's story.
+                You'll have the flexibility to showcase your products without needing to be present.
+        image: awesome-staff-250.png
       5:
         show: true
-        description: desc
-        title: title
-        image: image.png
+        title: Who We Work With
+        description: We love independent makers, designers, and artists from emerging brands small or large. If you love your products, we'll love you.
+        image: designer-photo-250.png

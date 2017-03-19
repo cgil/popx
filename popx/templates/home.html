@@ -68,11 +68,11 @@
             <div class="HomePage-bannerBackdrop"></div>
         </div>
         {% if sections['how_it_works']['show'] %}
-            <div class="text-center HomePage-section">
+            <div class="text-center HomePage-section HomePage-lastSection">
                 <h2 class="HomePage-sectionTitle u-tW-light u-mT-0 u-mB-xxl">How It Works</h2>
                 <div class="HomePage-howItWorks u-dC-flexCenter">
                     <div class="HomePage-howItWorksItem">
-                        <i class="fa fa-4x fa-shopping-bag u-mB-sm u-tC-brandMain"></i>
+                        <i class="fa fa-4x {{sections['how_it_works']['step_1']['icon']}} u-mB-sm u-tC-brandMain"></i>
                         <div class="u-tS-lg">
                             {{ sections['how_it_works']['step_1']['description'] }}
                         </div>
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <div class="HomePage-howItWorksItem">
-                        <i class="fa fa-4x fa-group u-mB-sm u-tC-brandMain"></i>
+                        <i class="fa fa-4x {{sections['how_it_works']['step_2']['icon']}} u-mB-sm u-tC-brandMain"></i>
                         <div class="u-tS-lg">
                             {{ sections['how_it_works']['step_2']['description'] }}
                         </div>
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                     <div class="HomePage-howItWorksItem">
-                        <i class="fa fa-4x fa-truck u-mB-sm u-tC-brandMain"></i>
+                        <i class="fa fa-4x {{sections['how_it_works']['step_3']['icon']}} u-mB-sm u-tC-brandMain"></i>
                         <div class="u-tS-lg">
                             {{ sections['how_it_works']['step_3']['description'] }}
                         </div>
@@ -114,7 +114,7 @@
                         </div>
                     </div>
                     <div>
-                        <i class="fa fa-4x fa-heart u-mB-sm u-tC-brandMain"></i>
+                        <i class="fa fa-4x {{sections['how_it_works']['step_4']['icon']}} u-mB-sm u-tC-brandMain"></i>
                         <div class="u-tS-lg">
                             {{ sections['how_it_works']['step_4']['description'] }}
                         </div>
@@ -140,7 +140,7 @@
         {% endif %}
         {% if sections[1]['show'] %}
             <div class="row">
-                <div class="col-xs-12 col-sm-8 col-sm-offset-2 HomePage-section u-dC-flex">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 HomePage-section u-dC-flex">
                     <div>
                         <img
                             class="HomePage-sectionImg"
@@ -150,7 +150,15 @@
                     <div class="HomePage-sectionContent">
                         <h2 class="HomePage-sectionTitle u-tW-light">{{ sections[1]['title'] }}</h2>
                         <p class="HomePage-sectionCopy">
-                            {{ sections[1]['description'] }}
+                            {% if sections[1]['type'] == 'bullet' %}
+                              <ul>
+                              {% for item in sections[1]['description'] %}
+                                  <li style="list-style-type: circle;">{{ item|e }}</li>
+                              {% endfor %}
+                              </ul>
+                            {% else %}
+                              {{ sections[1]['description'] }}
+                            {% endif %}
                         </p>
                     </div>
                 </div>
@@ -158,7 +166,7 @@
         {% endif %}
         {% if sections[2]['show'] %}
             <div class="row u-bC-main">
-                <div class="col-xs-12 col-sm-8 col-sm-offset-2 HomePage-section HomePage-section HomePage-section--reverse u-dC-flex">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 HomePage-section HomePage-section HomePage-section--reverse u-dC-flex">
                     <div>
                         <img
                             class="HomePage-sectionImg"
@@ -176,7 +184,7 @@
         {% endif %}
         {% if sections[3]['show'] %}
             <div class="row">
-                <div class="col-xs-12 col-sm-8 col-sm-offset-2 HomePage-section u-dC-flex">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 HomePage-section u-dC-flex">
                     <div>
                         <img
                             class="HomePage-sectionImg"
@@ -194,7 +202,7 @@
         {% endif %}
         {% if sections[4]['show'] %}
             <div class="row u-bC-main">
-                <div class="col-xs-12 col-sm-8 col-sm-offset-2 HomePage-section HomePage-section--reverse u-dC-flex">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 HomePage-section HomePage-section--reverse u-dC-flex">
                     <div>
                         <img
                             class="HomePage-sectionImg"
@@ -212,7 +220,7 @@
         {% endif %}
         {% if sections[5]['show'] %}
             <div class="row HomePage-lastSection">
-                <div class="col-xs-12 col-sm-8 col-sm-offset-2 HomePage-section u-dC-flex">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 HomePage-section u-dC-flex">
                     <div>
                         <img
                             class="HomePage-sectionImg"
@@ -245,7 +253,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                                 <h1 class="text-center u-m-0">
-                                    {{ mailchimp['cta_bottom'] }}
+                                    {{ mailchimp['mailchimp_cta_bottom'] }}
                                 </h1>
                                 <div class="input-group u-mT-xl u-mB-xxl">
                                     <input
