@@ -652,7 +652,9 @@
  }
 
 .my_featureRow {
+  text-align: left;
     border-bottom: 0.1em solid #CED7DF;
+    border-top: 0.1em solid #CED7DF;
 }
 
 /* --- Plan 1 --------------------------- */
