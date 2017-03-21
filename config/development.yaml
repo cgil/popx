@@ -19,8 +19,8 @@ pages:
         show:  true
       subscribe_url: //getpopx.us13.list-manage.com/subscribe/post?u=7ac52370982b0636b0acd6901&amp;id=eccee53c49
       email_placeholder: My Email
-      subscribe_button_text: Apply
-      mailchimp_cta_bottom: Apply to sell with us! Retail spots starting at $350/month.
+      subscribe_button_text: Work with us!
+      mailchimp_cta_bottom: Apply to sell with us! PopX spaces starting at $350/month.
     sections:
       how_it_works:
         show: true
@@ -28,10 +28,10 @@ pages:
           description: Tell us about your brand and products
           icon: fa-paint-brush
         step_2:
-          description: Book your favorite spots in our stores, month-to-month
+          description: Book your favorite spaces in PopX stores, month-to-month
           icon: fa-building-o
         step_3:
-          description: Send your products to our stores
+          description: Send your products to PopX stores
           icon: fa-send
         step_4:
           description: Our dedicated team will start selling your products immediately
@@ -43,13 +43,27 @@ pages:
         image: image.png
       1:
         show: true
-        title: Real World Brand Awareness
+        title: Who We Work With
+        description: We love independent makers, designers, and artists from emerging brands small or large. If you love your products, we'll love you.
+        image: designer-photo-250.png
+        type: message
+      2:
+        show: true
+        title: Let Us Tell Your Story
         description: >
-              Explore different markets and find new loving customers then
+                Remotely train our brand experience team to tell your brand's story.
+                You'll have the flexibility to showcase your products without needing to be present.
+        image: awesome-staff-250.png
+        type: message
+      3:
+        show: true
+        title: Extend Your Reach
+        description: >
+              Easily launch in difference markets across many PopX stores, test new audiences, and
               drive traffic to your online channels
         image: brand-awareness.png
         type: message
-      2:
+      4:
         show: true
         title: Plug & Play Retail
         description: >
@@ -57,22 +71,12 @@ pages:
                 Our brand experience team will showcase, sell, and handle your inventory,
                 while you watch from your sales dashboard.
         image: shared-retail-250.png
-      3:
+        type: message
+      5:
         show: true
         title: Growth & Sales Dashboard
         description: >
                   Our growth & sales dashboard gives you real-time analytics,
                   customer feedback, and inventory tracking.
         image: analytics-laptop-250.png
-      4:
-        show: true
-        title: Let Us Tell Your Story
-        description: >
-                Remotely train our brand experience team to tell your brand's story.
-                You'll have the flexibility to showcase your products without needing to be present.
-        image: awesome-staff-250.png
-      5:
-        show: true
-        title: Who We Work With
-        description: We love independent makers, designers, and artists from emerging brands small or large. If you love your products, we'll love you.
-        image: designer-photo-250.png
+        type: message
