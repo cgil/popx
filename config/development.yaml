@@ -20,7 +20,7 @@ pages:
       subscribe_url: //getpopx.us13.list-manage.com/subscribe/post?u=7ac52370982b0636b0acd6901&amp;id=eccee53c49
       email_placeholder: My Email
       subscribe_button_text: Work with us!
-      mailchimp_cta_bottom: Apply to sell with us! PopX spaces starting at $350/month.
+      mailchimp_cta_bottom: Apply to sell with us!
     sections:
       how_it_works:
         show: true
