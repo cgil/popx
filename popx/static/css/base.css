@@ -156,7 +156,6 @@
 
 @media (min-width: 767px) {
     .HomePage .HomePage-sectionImg {
-        max-height: 250px;
         width: auto;
         max-width: 450px
     }
@@ -618,11 +617,16 @@
 
 /* --- Plans ---------------------------- */
 
+.my_planHeaderContainer {
+  height: 3.2em;
+}
 .my_planHeader {
     text-align: center;
     color: white;
     padding-top:0.2em;
     padding-bottom:0.2em;
+    line-height: 2.8em;
+    height: 100%;
 }
 .my_planTitle {
     font-size:1.5em;
@@ -711,6 +715,13 @@
     font-size: 1.2em;
     line-height:2.8em;
 }
+
+@media (max-width: 768px) {
+    .my_planFeature {
+        text-align: center;
+        line-height:1.2em;
+    }
+ }
 
 .my_planFeature i.my_check {
     color: green;

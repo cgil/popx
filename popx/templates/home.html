@@ -139,6 +139,28 @@
         </div>
         {% endif %}
 
+        <div class="HomePage-section text-center HomePage-lastSection container-fluid u-bC-main">
+          <h2 class="HomePage-sectionTitle u-tW-light u-mT-0 u-mB-xxl u-tC-white">PopX Locations</h2>
+          <div class="row">
+              <div class="col-xs-12 col-sm-12 col-sm-offset-1 HomePage-section u-dC-flex">
+                  <div>
+                      <img
+                          class="HomePage-sectionImg"
+                          src={{ url_for('static', filename='img/' + 'store_1.jpg') }}
+                      >
+                      <h4 class="u-tW-light u-mT-xs u-mB-xs u-tC-white u-tS-xxl">N. Williamsburg</h4>
+                  </div>
+                  <div>
+                      <img
+                          class="HomePage-sectionImg"
+                          src={{ url_for('static', filename='img/' + 'store_2.jpg') }}
+                      >
+                      <h4 class="u-tW-light u-mT-xs u-mB-xs u-tC-white u-tS-xxl">SoHo</h4>
+                  </div>
+              </div>
+            </div>
+          </div>
+
         {% include 'pricing.html' %}
 
         <div class="container-fluid">
@@ -170,7 +192,7 @@
         {% endif %}
         {% if sections[2]['show'] %}
             <div class="row u-bC-main">
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1 HomePage-section HomePage-section HomePage-section--reverse u-dC-flex">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 HomePage-section HomePage-section--reverse u-dC-flex">
                     <div>
                         <img
                             class="HomePage-sectionImg"
