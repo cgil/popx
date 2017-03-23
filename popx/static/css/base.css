@@ -618,7 +618,7 @@
 /* --- Plans ---------------------------- */
 
 .my_planHeaderContainer {
-  height: 3.2em;
+  flex-grow: 1;
 }
 .my_planHeader {
     text-align: center;
@@ -627,6 +627,14 @@
     padding-bottom:0.2em;
     line-height: 2.8em;
     height: 100%;
+}
+
+@media (max-width: 768px) {
+  .my_planHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .my_planTitle {
     font-size:1.5em;
@@ -643,6 +651,7 @@
 @media (max-width: 768px) {
     .my_planTitle {
         font-size:small;
+        line-height: 22px;
     }
 }
 
@@ -655,14 +664,28 @@
 
 @media (max-width: 768px) {
     .my_feature {
-        text-align: center
+        border-top: 0 !important;
+        border-bottom: 1px solid #CED7DF;
+        line-height: 22px;
+        text-align: center;
+        padding: 10px;
     }
  }
 
 .my_featureRow {
-  text-align: left;
-    border-bottom: 0.1em solid #CED7DF;
-    border-top: 0.1em solid #CED7DF;
+    text-align: left;
+    border-top: 1px solid #CED7DF;
+}
+
+@media (max-width: 768px) {
+  .my_featureRow {
+    border-left: 1px solid #CED7DF;
+    border-right: 1px solid #CED7DF;
+  }
+}
+
+.my_feature_row_row {
+
 }
 
 /* --- Plan 1 --------------------------- */
@@ -716,10 +739,19 @@
     line-height:2.8em;
 }
 
+
 @media (max-width: 768px) {
     .my_planFeature {
+        display: flex;
         text-align: center;
         line-height:1.2em;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .my_planFeature:not(:last-child) {
+      border-right: 1px solid #CED7DF;
     }
  }
 
