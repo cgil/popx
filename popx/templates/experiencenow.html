@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="HomePage">
+        <div
+            class="HomePage-banner u-dC-flexCenter"
+            style="background-image: url('{{ url_for('static', filename='img/' + banner) }}')"
+        >
+            <div class="HomePage-bannerContent text-center">
+                <h1 class="u-m-0 u-tC-white" style="text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black">
+                    Live performances from your the comforts of your couch!
+                </h1>
+                <h2 class="u-tC-white" style="text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black">
+                    Send us a message at hi@getpopx.com for more information!
+                </h2>
+            </div>
+        </div>
+    </div>
+{% endblock %}

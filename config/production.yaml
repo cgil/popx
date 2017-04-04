@@ -2,6 +2,89 @@
 debug: False
 
 pages:
+  experiencenow:
+    header:
+      title: Experiences at Home.
+      description: Experience a live performance from the comforts of your couch.
+      icon: background-store.jpg
+      url: https://getpopx.com/experiencenow
+      product_name: ExperienceNow
+    title: ExperienceNow
+    banner: group-banner.jpg
+    tagline: Experiences at Home.
+    slogan: Experience a live performance from the comforts of your couch.
+    mailchimp:
+      bottom:
+        show: true
+      top:
+        show:  true
+      subscribe_url: //getpopx.us13.list-manage.com/subscribe/post?u=7ac52370982b0636b0acd6901&amp;id=eccee53c49
+      email_placeholder: My Email
+      subscribe_button_text: Work with us!
+      mailchimp_cta_bottom: Apply to sell with us!
+    sections:
+      how_it_works:
+        show: true
+        step_1:
+          description: Tell us about your brand and products
+          icon: fa-paint-brush
+        step_2:
+          description: Book your favorite spaces in PopX stores, month-to-month
+          icon: fa-building-o
+        step_3:
+          description: Send your products to PopX stores
+          icon: fa-send
+        step_4:
+          description: Our dedicated team will start selling your products immediately
+          icon: fa-shopping-bag
+      map:
+        show: false
+        description: desc
+        title: title
+        image: image.png
+      1:
+        show: true
+        title: Who We Work With
+        description: We love independent makers, designers, and artists from emerging brands small or large. If you love your products, we'll love you.
+        image: designer-photo-250.png
+        type: message
+      2:
+        show: true
+        title: Let Us Tell Your Story
+        description: >
+                Remotely train our brand experience team to tell your brand's story.
+                You'll have the flexibility to showcase your products without needing to be present.
+        image: awesome-staff-250.png
+        type: message
+      3:
+        show: true
+        title: Extend Your Reach
+        description: >
+              Easily launch in different markets across many PopX stores, test new audiences, and
+              drive traffic to your online channels.
+              Our first locations are in NYC:
+              Williamsburg on N. 7th with our second shop opening in SoHo this summer.
+        image: brand-awareness.png
+        type: message
+      4:
+        show: true
+        title: Plug & Play Retail
+        description: >
+                Your products share the hottest PopX stores with other beautiful & curated brands.
+                Our brand experience team will showcase, sell, and handle your inventory,
+                while you watch from your sales dashboard.
+        image: shared-retail-250.png
+        type: message
+      5:
+        show: true
+        title: Growth & Sales Dashboard
+        description: >
+                  Our growth & sales dashboard gives you real-time analytics,
+                  customer feedback, and inventory tracking.
+        image: analytics-laptop-250.png
+        type: message
+
+
   home:
     header:
       title: Shared retail pop-up stores on demand.

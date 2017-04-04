@@ -29,4 +29,13 @@ def create_app():
             **config.get('pages.home')
         )
 
+    # Experience now - test.
+    @app.route('/experiencenow')
+    def experiencenow():
+        return render_template(
+            'experiencenow.html',
+            is_production=not config.get('debug'),
+            **config.get('pages.experiencenow')
+        )
+
     return app
