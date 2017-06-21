@@ -7,7 +7,7 @@ pages:
       title: Experiences at Home.
       description: Experience a live performance from the comforts of your couch.
       icon: background-store.jpg
-      url: https://getpopx.com/experiencenow
+      url:
       product_name: ExperienceNow
     title: ExperienceNow
     banner: group-banner.jpg
@@ -18,7 +18,7 @@ pages:
         show: true
       top:
         show:  true
-      subscribe_url: //getpopx.us13.list-manage.com/subscribe/post?u=7ac52370982b0636b0acd6901&amp;id=eccee53c49
+      subscribe_url:
       email_placeholder: My Email
       subscribe_button_text: Work with us!
       mailchimp_cta_bottom: Apply to sell with us!
