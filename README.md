@@ -6,7 +6,7 @@ The goal of this project was to identify a problem in the retail space, speak to
 Custodmer feedback, research, and other case study documents can be found here: [Case Study Documents](https://github.com/cgil/popx/tree/master/case_study_documents)
 
 
-![PopX Demo](https://github.com/cgil/popx/blob/master/popx/static/img/popx-landingpage.png?raw=true)
+![PopX Demo](https://github.com/cgil/popx/blob/master/popx/static/img/popx-landing-page.gif?raw=true)
 
 
 ## Landing Page
